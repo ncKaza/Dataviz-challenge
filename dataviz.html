@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Indicateurs Santé - Pacifique</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Indicateurs de Santé - Pays du Pacifique</h1>
+    <p>Données de 2007 à 2015 - Source : Pacific Data Hub</p>
+  </header>
+
+  <div id="slideshow">
+    <img src="images/pacific1.jpg" class="active" alt="Pacifique 1" />
+    <img src="images/pacific2.jpg" alt="Pacifique 2" />
+    <img src="images/pacific3.jpg" alt="Pacifique 3" />
+  </div>
+
+  <main>
+    <section class="indicator">
+      <h2>Mortalité Infantile (pour 1000 naissances)</h2>
+      <canvas id="mortalityChart"></canvas>
+    </section>
+
+    <section class="indicator">
+      <h2>Consultations Prénatales (ANC)</h2>
+      <canvas id="ancChart"></canvas>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 - Indicateurs Santé | Pacifique</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
